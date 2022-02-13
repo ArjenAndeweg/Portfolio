@@ -47,6 +47,26 @@ input[class^="btn-"]:hover {
   text-align: center;
 }
 
+// Backgrouds
+.bg {
+  &-main {
+    background: $main-color;
+    color: #444;
+  }
+  &-dark {
+    background: $dark-color;
+    color: #fff;
+  }
+  &-light {
+    background: $light-color;
+    color: #444;
+  }
+  &-medium {
+    background: $medium-color;
+    color: #fff;
+  }
+}
+
 // padding
 
 .py {
