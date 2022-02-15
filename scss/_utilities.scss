@@ -65,6 +65,10 @@ input[class^="btn-"]:hover {
     background: $medium-color;
     color: #fff;
   }
+  &-secondary {
+    background: $secondary-color;
+    color: #fff;
+  }
 }
 
 // padding
